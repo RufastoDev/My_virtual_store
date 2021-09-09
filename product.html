@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store | Hann Pieer</title>
+    <link rel="stylesheet" href="main.css">
+    <!------Family Fonts------>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <!-------Icons awesome ------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img class="header__logo" src="resources/logo.png" alt="logotipo" width="250px"></a>
+    </header>
+    <hr>
+    <nav class="navegation">
+        <a class="navegation__enlace" href="index.html">Tienda</a>
+        <a class="navegation__enlace navegation__enlace--activo" href="about.html">Nosotros</a>
+    </nav> <hr>
+
+    <main class="container">
+        <h1 class="header__title">Vue JS</h1>
+        <div class="product">
+            <img src="resources/cash02.jpg" alt="Imagen del producto" class="product__img">
+            <div class="product__description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dolorum dolorem. Suscipit reiciendis voluptas repudiandae quam enim odit vero dolor, quia molestiae cum illo consectetur, voluptate necessitatibus sed nemo natus. Suscipit reiciendis voluptas  !!</p>
+                <form action="#" class="formulario">
+                     <!----Para las tallas---->
+                    <select name="talla" id="tallas">
+                        <option disabled selected>Ver tallas</option>
+                        <option value="">Talla S</option>
+                        <option value="">Talla M</option>
+                        <option value="">Talla XL</option>
+                        <option value="">Talla XXL</option>
+                    </select>
+                    <!-----Para la cantidad----->
+                    <select name="talla" id="tallas">
+                        <option disabled selected>Cantidad</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                    <button type="submit">Agregar al carrito <i class="fas fa-shopping-cart"></i></button>
+                </form>
+    
+            </div>
+
+        </div>
+        
+    </main>
+   
+    <footer class="footer-tag"> 
+        <a href="https://www.instagram.com/piervasquez08/">All rights reserved 2021 - @PierVasquez08</a>
+    </footer>
+</body>
+</html>
